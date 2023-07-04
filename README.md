@@ -8,13 +8,13 @@ Untuk menginstall aplikasi ini memerlukan 2 aplikasi, yaitu vs code dan laragon
 -   setelah itu buka file .env dan di DB_DATABASE ubah menjadi nama databse yang baru di buat
 -   nyalakan server laragon
 
-# lalu ketik di terminal vs code
+### lalu ketik di terminal vs code
 
 -   composer install
 -   php artisan key:generate
 -   php artisan migrate:fresh --seed
 
-# kemudian untuk menyalakan server
+### kemudian untuk menyalakan server
 
 -   php artisan serve
 
@@ -22,7 +22,7 @@ Untuk menginstall aplikasi ini memerlukan 2 aplikasi, yaitu vs code dan laragon
 
 Untuk melakukan testing perlu melakukan 2 langkah yaitu:
 
-# ketik di terminal
+### ketik di terminal
 
 -   php artisan migrate:fresh --seed
 -   php artisan test
